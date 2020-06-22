@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Data.Configuration\ECommerce.Data.Configuration.csproj" />
+    <ProjectReference Include="..\ECommerce.Dependency\ECommerce.Dependency.csproj" />
+    <ProjectReference Include="..\ECommerce.Dto\ECommerce.Dto.csproj" />
+    <ProjectReference Include="..\ECommerce.Market.Service\ECommerce.Market.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

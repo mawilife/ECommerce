@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Dependency\ECommerce.Dependency.csproj" />
+    <ProjectReference Include="..\ECommerce.Dto\ECommerce.Dto.csproj" />
+    <ProjectReference Include="..\ECommerce.Mapping\ECommerce.Mapping.csproj" />
+    <ProjectReference Include="..\ECommerce.Billing.Repository\ECommerce.Billing.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
