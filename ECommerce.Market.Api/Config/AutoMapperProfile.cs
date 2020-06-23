@@ -14,6 +14,7 @@ namespace ECommerce.Market.Api.Config
             this.CreateMap<Models.ProductUpdateModel, Dto.Product>();
             this.CreateMap<Models.OrderedProductModel, Dto.OrderedProductModel>();
             this.CreateMap<Models.OrderModel, Dto.CreateOrder>();
+            this.CreateMap<Models.ProductModel, Dto.Product>();
         }
         public void Configure(IMapperConfigurationExpression mapper)
         {
