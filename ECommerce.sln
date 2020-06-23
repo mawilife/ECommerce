@@ -27,11 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Global", "ECommer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Mapping", "ECommerce.Mapping\ECommerce.Mapping.csproj", "{3560FE4B-AD12-4390-9330-0A713B8172F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Billing.Repository", "ECommerce.Billing.Repository\ECommerce.Billing.Repository.csproj", "{C6C00CAE-B088-493E-AA24-7172900EB3D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Billing.Repository", "ECommerce.Billing.Repository\ECommerce.Billing.Repository.csproj", "{C6C00CAE-B088-493E-AA24-7172900EB3D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Billing.Service", "ECommerce.Billing.Service\ECommerce.Billing.Service.csproj", "{5BFB9B7D-539F-4384-B9A6-01A15446AFCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Billing.Service", "ECommerce.Billing.Service\ECommerce.Billing.Service.csproj", "{5BFB9B7D-539F-4384-B9A6-01A15446AFCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Billing.Api", "ECommerce.Billing.Api\ECommerce.Billing.Api.csproj", "{3ED67DD5-38AA-48F5-9F66-7A348B72BF69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Billing.Api", "ECommerce.Billing.Api\ECommerce.Billing.Api.csproj", "{3ED67DD5-38AA-48F5-9F66-7A348B72BF69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
