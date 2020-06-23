@@ -161,7 +161,8 @@ namespace ECommerce.Market.Repository.Repositories
         {
             try
             {
-                var filter = Builders<Product>.Filter.In(b => b.Code, productCodes);
+                var filter = Builders<Product>.Filter.In(b => b.Code, productCodes)
+                            & Builders<Product>.Filter.Eq(b => b.Deleted, false); ;
                 var result = await this.productCollection.Find(filter).ToListAsync();
                 return this.mapper.Map<List<Dto.Product>>(result);
             }
